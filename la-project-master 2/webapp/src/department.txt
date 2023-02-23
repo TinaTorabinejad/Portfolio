@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+   <link rel="stylesheet" href="style.css">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap Table with Add and Delete Row Feature</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="tableStyle.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         	$('[data-toggle="tooltip"]').tooltip();
+         	var actions = $("table td:last-child").html();
+         	// Append table with add row form on add new button click
+             $(".add-new").click(function(){
+         		$(this).attr("disabled", "disabled");
+         		var index = $("table tbody tr:last-child").index();
+                 var row = '<tr>' +
+                     '<td><input type="text" class="form-control" name="name" id="name"></td>' +
+                     '<td><input type="text" class="form-control" name="department" id="department"></td>' +
+         			'<td>' + actions + '</td>' +
+                 '</tr>';
+             	$("table").append(row);		
+         		$("table tbody tr").eq(index + 1).find(".add, .edit").toggle();
+                 $('[data-toggle="tooltip"]').tooltip();
+             });
+         	// Add row on add button click
+         	$(document).on("click", ".add", function(){
+         		var empty = false;
+         		var input = $(this).parents("tr").find('input[type="text"]');
+                 input.each(function(){
+         			if(!$(this).val()){
+         				$(this).addClass("error");
+         				empty = true;
+         			} else{
+                         $(this).removeClass("error");
+                     }
+         		});
+         		$(this).parents("tr").find(".error").first().focus();
+         		if(!empty){
+         			input.each(function(){
+         				$(this).parent("td").html($(this).val());
+         			});			
+         			$(this).parents("tr").find(".add, .edit").toggle();
+         			$(".add-new").removeAttr("disabled");
+         		}		
+             });
+         	// Edit row on edit button click
+         	$(document).on("click", ".edit", function(){		
+                 $(this).parents("tr").find("td:not(:last-child)").each(function(){
+         			$(this).html('<input type="text" class="form-control" value="' + $(this).text() + '">');
+         		});		
+         		$(this).parents("tr").find(".add, .edit").toggle();
+         		$(".add-new").attr("disabled", "disabled");
+             });
+         	// Delete row on delete button click
+         	$(document).on("click", ".delete", function(){
+                 $(this).parents("tr").remove();
+         		$(".add-new").removeAttr("disabled");
+             });
+         });
+      </script>   
+      <title>Login Page</title>
+   </head>
+   <body>
+      <ul id="nav">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#Department">Department of LA County</a></li>
+         <li><a href="#Parking">Parking Lot Facilities</a></li>
+         <li><a href="#EmployeePark">Employee Parking Access Keycards</a></li>
+         <li><a href="#Reports">Reports</a></li>
+         <li><a href="#Permitters">Permitters for All County Employees</a></li>
+         <li style="float:right"><a class="active" href="login.html">Login</a></li>
+      </ul>
+      <h1 style="text-align:center">Department of Los Angeles County</h1>
+      <div class="container">
+         <div class="table-wrapper">
+            <div class="table-title">
+               <div class="row">
+                  <div class="col-sm-8">
+                     <h2>Department Details<b></h2>
+                  </div>
+                  <div class="col-sm-4">
+                     <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
+                  </div>
+               </div>
+            </div>
+            <table class="table table-bordered">
+               <thead>
+                  <tr>
+                     <th>Department Name </th>
+                     <th>Department Number </th>
+                     <th>Actions</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>placeholder</td>
+                     <td>placeholder</td>
+                     <td>
+                        <a class="add" title="Add" data-toggle="tooltip">
+                        Add
+                        </a>
+                        <a class="edit" title="Edit" data-toggle="tooltip">
+                        Edit
+                        </a>
+                        <a class="delete" title="Delete" data-toggle="tooltip">
+                        Delete
+                        </a>
+                    </td>
+                    </tr>
+                        <td>placeholder</td>
+                        <td>placeholder</td>
+                        <td>
+                           <a class="add" title="Add" data-toggle="tooltip">
+                           Add
+                           </a>
+                           <a class="edit" title="Edit" data-toggle="tooltip">
+                           Edit
+                           </a>
+                           <a class="delete" title="Delete" data-toggle="tooltip">
+                           Delete
+                           </a>
+                  </tr>
+                  <tr>
+                     <td>placeholder</td>
+                     <td>placeholder</td>
+                     <td>
+                        <a class="add" title="Add" data-toggle="tooltip">
+                        Add
+                        </a>
+                        <a class="edit" title="Edit" data-toggle="tooltip">
+                        Edit
+                        </a>
+                        <a class="delete" title="Delete" data-toggle="tooltip">
+                        Delete
+                        </a>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </body>
+</html>
