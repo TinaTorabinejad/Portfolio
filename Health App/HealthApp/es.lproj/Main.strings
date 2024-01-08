@@ -1,0 +1,64 @@
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "1gK-WB-kW1"; */
+"1gK-WB-kW1.text" = "Nombre:";
+
+/* Class = "UILabel"; text = "Remember Me"; ObjectID = "5Tr-Vs-NSL"; */
+"5Tr-Vs-NSL.text" = "Acuérdate de mí";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "9k1-wr-oXi"; */
+"9k1-wr-oXi.text" = "Contraseña:";
+
+/* Class = "UIViewController"; title = "LoginViewController"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Iniciar sesión Ver controlador";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "Dcz-YA-DHn"; */
+"Dcz-YA-DHn.text" = "???";
+
+/* Class = "UILabel"; text = "Welcome to the Health App"; ObjectID = "GPW-g8-tB4"; */
+"GPW-g8-tB4.text" = "Bienvenido a la aplicación de salud";
+
+/* Class = "UIViewController"; title = "ViewControllerTips"; ObjectID = "KDG-AY-A9M"; */
+"KDG-AY-A9M.title" = "VerConsejos sobre el controlador";
+
+/* Class = "UITextField"; placeholder = "Your Weight..."; ObjectID = "ae2-Mq-j2z"; */
+"ae2-Mq-j2z.placeholder" = "Tu peso...";
+
+/* Class = "UITabBarController"; title = "TabBarController"; ObjectID = "dR6-ga-S86"; */
+"dR6-ga-S86.title" = "Controlador de barra de pestañas";
+
+/* Class = "UITabBarItem"; title = "Weight Conversion"; ObjectID = "guq-6b-VGS"; */
+"guq-6b-VGS.title" = "Conversión de peso";
+
+/* Class = "UILabel"; text = "Health Tips"; ObjectID = "hQo-tL-ieA"; */
+"hQo-tL-ieA.text" = "Consejos de salud";
+
+/* Class = "UISegmentedControl"; nNc-ho-YaC.segmentTitles[0] = "Pounds (lb)"; ObjectID = "nNc-ho-YaC"; */
+"nNc-ho-YaC.segmentTitles[0]" = "Libras (lb)";
+
+/* Class = "UISegmentedControl"; nNc-ho-YaC.segmentTitles[1] = "Kilograms (kg)"; ObjectID = "nNc-ho-YaC"; */
+"nNc-ho-YaC.segmentTitles[1]" = "Kilogramos (kg)";
+
+/* Class = "UIViewController"; title = "Weight Converter"; ObjectID = "nfG-4q-zwj"; */
+"nfG-4q-zwj.title" = "Convertidor de peso";
+
+/* Class = "UITabBarItem"; title = "Tips"; ObjectID = "s0T-CV-ftc"; */
+"s0T-CV-ftc.title" = "Consejos";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "sAE-3E-esO"; */
+"sAE-3E-esO.text" = "Correo electrónico:";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "sBS-s0-ExQ"; */
+"sBS-s0-ExQ.title" = "Mapa";
+
+/* Class = "UILabel"; text = "Please Enter Your Current Weight"; ObjectID = "sK7-lv-Hy9"; */
+"sK7-lv-Hy9.text" = "Por favor ingrese su peso actual";
+
+/* Class = "UIButton"; configuration.title = "Next Tip!"; ObjectID = "zMD-Cj-Dfg"; */
+"zMD-Cj-Dfg.configuration.title" = "¡Siguiente consejo!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zMD-Cj-Dfg"; */
+"zMD-Cj-Dfg.normalTitle" = "Botón";
+
+
+
+

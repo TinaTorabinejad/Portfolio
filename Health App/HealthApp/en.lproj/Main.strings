@@ -1,0 +1,60 @@
+	
+/* Class = "UILabel"; text = "Name:"; ObjectID = "1gK-WB-kW1"; */
+"1gK-WB-kW1.text" = "Name:";
+
+/* Class = "UILabel"; text = "Remember Me"; ObjectID = "5Tr-Vs-NSL"; */
+"5Tr-Vs-NSL.text" = "Remember Me";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "9k1-wr-oXi"; */
+"9k1-wr-oXi.text" = "Password:";
+
+/* Class = "UIViewController"; title = "LoginViewController"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "LoginViewController";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "Dcz-YA-DHn"; */
+"Dcz-YA-DHn.text" = "???";
+
+/* Class = "UILabel"; text = "Welcome to the Health App"; ObjectID = "GPW-g8-tB4"; */
+"GPW-g8-tB4.text" = "Welcome to the Health App";
+
+/* Class = "UIViewController"; title = "ViewControllerTips"; ObjectID = "KDG-AY-A9M"; */
+"KDG-AY-A9M.title" = "ViewControllerTips";
+
+/* Class = "UITextField"; placeholder = "Your Weight..."; ObjectID = "ae2-Mq-j2z"; */
+"ae2-Mq-j2z.placeholder" = "Your Weight...";
+
+/* Class = "UITabBarController"; title = "TabBarController"; ObjectID = "dR6-ga-S86"; */
+"dR6-ga-S86.title" = "TabBarController";
+
+/* Class = "UITabBarItem"; title = "Weight Conversion"; ObjectID = "guq-6b-VGS"; */
+"guq-6b-VGS.title" = "Weight Conversion";
+
+/* Class = "UILabel"; text = "Health Tips"; ObjectID = "hQo-tL-ieA"; */
+"hQo-tL-ieA.text" = "Health Tips";
+
+/* Class = "UISegmentedControl"; nNc-ho-YaC.segmentTitles[0] = "Pounds (lb)"; ObjectID = "nNc-ho-YaC"; */
+"nNc-ho-YaC.segmentTitles[0]" = "Pounds (lb)";
+
+/* Class = "UISegmentedControl"; nNc-ho-YaC.segmentTitles[1] = "Kilograms (kg)"; ObjectID = "nNc-ho-YaC"; */
+"nNc-ho-YaC.segmentTitles[1]" = "Kilograms (kg)";
+
+/* Class = "UIViewController"; title = "Weight Converter"; ObjectID = "nfG-4q-zwj"; */
+"nfG-4q-zwj.title" = "Weight Converter";
+
+/* Class = "UITabBarItem"; title = "Tips"; ObjectID = "s0T-CV-ftc"; */
+"s0T-CV-ftc.title" = "Tips";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "sAE-3E-esO"; */
+"sAE-3E-esO.text" = "Email:";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "sBS-s0-ExQ"; */
+"sBS-s0-ExQ.title" = "Map";
+
+/* Class = "UILabel"; text = "Please Enter Your Current Weight"; ObjectID = "sK7-lv-Hy9"; */
+"sK7-lv-Hy9.text" = "Please Enter Your Current Weight";
+
+/* Class = "UIButton"; configuration.title = "Next Tip!"; ObjectID = "zMD-Cj-Dfg"; */
+"zMD-Cj-Dfg.configuration.title" = "Next Tip!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zMD-Cj-Dfg"; */
+"zMD-Cj-Dfg.normalTitle" = "Button";
